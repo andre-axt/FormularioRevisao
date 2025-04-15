@@ -1,5 +1,6 @@
 .formcadastro{
     padding: 5%;
+    
 }
 
 header{
@@ -8,5 +9,10 @@ header{
 }
 
 main{
-    background-color: rgb(125, 125, 204);
+    background-color: rgb(163, 163, 223);
+}
+
+body{
+    font-size: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
