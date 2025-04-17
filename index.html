@@ -39,8 +39,8 @@
                 </select>
                 <br>
                 <br>
-                <label for="idade">Idade:</label>
-                <input type="date" id="date" name="date" required>
+                <label for="nascimento">Nascimento:</label>
+                <input type="date" id="nascimento" name="nascimento" required>
                 <br>
                 <br>
                 <label for="telefone">Telefone:</label>
@@ -92,20 +92,10 @@
                 <br>
                 <br>
                 <label for="corfav">Cor favorita:</label>
-                <select name="corfav" id="corfav" required>
-                    <option value="" disabled selected>Selecione...</option>
-                    <option>Azul</option>
-                    <option>Preto</option>
-                    <option>Laranja</option>
-                    <option>Amarelo indeciso</option>
-                    <option>Roxo</option>
-                    <option>Marrom Mocotó</option>
-                    <option>Vermelho</option>
-                    <option>Verde</option>
-                </select>
+                <input type="color" name="corfav" id="corfav">
                 <br>
                 <br>
-                <label for="cep">CEP:</label>
+                <label for="cep">CEP("Acabou as ideias"):</label>
                 <input type="text" name="cep" id="cep" required placeholder="cep">
                 <br>
                 <br>
@@ -141,16 +131,16 @@
                 <input type="text" name="nomemae" required>
                 <br>
                 <br>
-                <label for="idademae">Idade da Mãe</label>
-                <input type="number" name="idademae">
+                <label for="idademae">Dia de nascimento da mãe:</label>
+                <input type="date" name="idademae">
                 <br>
                 <br>
                 <label for="nomepai">Nome completo do pai:</label>
                 <input type="text" name="nomepai" required>
                 <br>
                 <br>
-                <label for="idadepai">Idade do pai:</label>
-                <input type="number" name="idadepai">
+                <label for="idadepai">Dia de nascimento do pai:</label>
+                <input type="date" name="idadepai">
                 <br>
                 <br>
                 <label for="financeira">Situação financeira</label>
@@ -182,46 +172,53 @@
                 <input type="checkbox" name="generomusical" id="generomusical">Blues
                 <br>
                 <br>
-                <label for="imagemaleatoria">O que você vê?</label>
+                <label for="testepsicologico">O que você vê?</label>
                 <img src="imagem/imagem1.jpg" alt="">
-                <input type="text" name="imagemaleatoria">
+                <input type="text" name="testepsicologico">
                 <br>
                 <br>
                 <label for="matematica">Quanto é 1 + 1?</label>
-                <input type="number" required placeholder="resposta">
+                <input type="text" name="matematica" placeholder="resposta">
                 <br>
                 <br>
-                <label for="visao">Teste de visão</label>
+                <label for="testevisao">Teste de visão</label>
                 <img src="imagem/visao.jpg" alt="">
-                <input type="text" required placeholder="resposta">
+                <input type="text" name="testevisao" required placeholder="resposta">
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="estadocivil">Estado civil:</label>
+                <select name="estadocivil" id="estadocivil" required>
+                    <option value="selecionar" disabled selected>Selecionar...</option>
+                    <option value="option">Solteiro</option>
+                    <option value="option">Casado</option>
+                    <option value="option">Viuvo</option>
+                </select>
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="numerodasorte">Número da sorte</label>
+                <input type="number" name="numerodasorte" required placeholder="número da sorte">
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="interesses">interesses:</label>
+                <input type="text" required placeholder="interesses">
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="filmefavorito">Filme favorito:</label>
+                <input type="text" name="filmefavorito">
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="cafe">Gosta de café?</label>
+                <br>
+                <input type="radio" name="cafe">Sim
+                <input type="radio" name="cafe">Não
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="peso">Peso:</label>
+                <input type="number" name="peso" placeholder="peso">
                 <br>
                 <br>
-                <label for=""></label>
-                <input type="text">
+                <label for="altura">Altura:</label>
+                <input type="number" name="altura" placeholder="altura">
                 <br>
                 <br>
                 <input class="buttoncadastro" type=submit onclick="validarForm();" value="Enviar">
