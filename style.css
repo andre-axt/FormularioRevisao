@@ -16,3 +16,8 @@ body{
     font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.erro {
+    color: red;
+    font-size: 0.9em;
+  }
