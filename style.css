@@ -1,23 +1,29 @@
-.formcadastro{
-    padding: 5%;
-    
-}
-
 header{
     text-align: center;
     background-color: bisque;
 }
 
-main{
-    background-color: rgb(163, 163, 223);
-}
-
 body{
     font-size: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)) no-repeat bottom center scroll;
+    background-size: cover;
+    background-color: blue;
 }
 
-.erro {
-    color: red;
-    font-size: 0.9em;
-  }
+.formcadastro{
+    text-align: center;
+    background-color: aquamarine;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 5%;
+}  
+
+input{
+    border-style: groove;
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+}
